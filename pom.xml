@@ -9,11 +9,18 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
   		<plugin>
   			<groupId>org.apache.maven.plugins</groupId>
   			<artifactId>maven-compiler-plugin</artifactId>
+  			 <configuration>
+  			   <source>5</source>
+  			   <target>5</target>
+  			 </configuration>
   		</plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
         <version>2.2</version>
+        <configuration>
+            <warSourceDirectory>${basedir}/WebContent</warSourceDirectory>
+        </configuration>
       </plugin>
   	</plugins>
   </build>
@@ -23,6 +30,12 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
   		<groupId>dunse</groupId>
   		<artifactId>FlotJF</artifactId>
   		<version>0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>javax</groupId>
+  		<artifactId>javaee-api</artifactId>
+  		<version>6.0</version>
+  		<scope>provided</scope>
   	</dependency>
   </dependencies>
 </project>
