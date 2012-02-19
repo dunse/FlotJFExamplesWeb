@@ -16,13 +16,6 @@ import javax.servlet.http.HttpServletResponse;
 public class GetGraphOptions extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-    /**
-     * Default constructor. 
-     */
-    public GetGraphOptions() {
-        // TODO Auto-generated constructor stub
-    }
-
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
@@ -48,9 +41,7 @@ public class GetGraphOptions extends HttpServlet {
 			out.println(ExampleGraph4.getGraphOptions());
 			break;
 		}
-		
+
 		out.close();
 	}
-
-	
 }
