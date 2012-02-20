@@ -26,7 +26,7 @@ public class ExampleGraph4 {
 	public static String getGraph() {
 		Calendar cal = Calendar.getInstance(TimeZone.getTimeZone("GMT+0000"));
 		Calendar localCal = Calendar.getInstance();
-		// Timespan in milliseconds
+		// Timespan in seconds
 		Integer timeSpan = 300;
 
 		Long endTime = cal.getTimeInMillis();
