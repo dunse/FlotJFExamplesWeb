@@ -22,7 +22,7 @@ public class ExampleGraph3 {
 		PlotData sinPlot = new PlotData("sin(x)", null);
 		PlotData cosPlot = new PlotData("cos(x)+5", null);
 
-		// Flot use Line as default type. To change type just call the helper method use<Type>.
+		// Flot use Line as default type. To change the type, just call the helper method use<Type>.
 		sqrtPlot.setBarOptions();
 		cosPlot.setPointOptions();
 
