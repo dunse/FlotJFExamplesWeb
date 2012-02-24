@@ -40,6 +40,12 @@ public class GetGraph extends HttpServlet {
 		case 4:
 			out.println(ExampleGraph4.getGraph());
 			break;
+		case 5:
+			out.println(ExampleGraph5.getGraph());
+			break;
+		case 6:
+			out.println(ExampleGraph6.getGraph());
+			break;
 		}
 		
 		out.close();

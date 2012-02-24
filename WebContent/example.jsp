@@ -1,6 +1,7 @@
 <%
 String exampleId = request.getParameter("id");
 String poll = request.getParameter("poll");
+String tooltip = request.getParameter("tooltip");
 if (exampleId == null) {
 	exampleId = "1";
 }
@@ -14,12 +15,16 @@ if (exampleId == null) {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <!--[if lte IE 8]><script src="javascripts/flot/excanvas.min.js" type="text/javascript" charset="UTF-8"></script><![endif]-->
 <script src="javascripts/flot/jquery.flot.js" type="text/javascript" charset="UTF-8"></script>
+<script src="javascripts/flotjf.tooltip.js" type="text/javascript" charset="UTF-8"></script>
 </head>
 <body id="example">
 <h2>Example <%=exampleId %></h2>
 <div id="placeholder" style="width:95%;height:400px;" ></div>
 <script type="text/javascript">
 <!--
+   <% if (tooltip != null) { %>
+	useTooltip();
+   <% } %>
    var data = [], totalPoints = 300;
 	    function getGraph() {
 	    	$.post('GetGraph',{example: <%=exampleId %>},

@@ -13,7 +13,7 @@ public class ExampleGraph4 {
 		Chart chart = new Chart();
 	
 		Axis yAxis = new Axis();
-		yAxis.setMax(550L);
+		yAxis.setMax(550D);
 		chart.addYAxis(yAxis);
 
 		Axis xAxis = new Axis();
