@@ -44,3 +44,11 @@ To use the application, access it through: [http://localhost:PORT/FlotJFExamples
 ## Example 4 - Realtime graph using AJAX (update every 3sec)
 
 ![](/dunse/FlotJFExamplesWeb/raw/master/src/main/java/doc-files/example4.jpg)
+
+## Example 5 - Colour and Opacity gradient
+
+![](/dunse/FlotJFExamplesWeb/raw/master/src/main/java/doc-files/example5.jpg)
+
+## Example 6 - Tooltip
+
+![](/dunse/FlotJFExamplesWeb/raw/master/src/main/java/doc-files/example6.jpg)
