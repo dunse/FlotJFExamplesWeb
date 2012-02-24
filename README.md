@@ -2,6 +2,8 @@
 
 This is a web project to illustrate how to use [Flot](http://code.google.com/p/flot) together with [FlotJF](https://github.com/dunse/FlotJF) to create graphs.
 
+For in-depth walkthrough of the source code, please read this blog article: [http://dsysadm.blogspot.com.au/2012/02/flotjfexamplesweb-how-to-use-flotjf.html](http://dsysadm.blogspot.com.au/2012/02/flotjfexamplesweb-how-to-use-flotjf.html)
+
 # Building
 
 **Dependencies:**
